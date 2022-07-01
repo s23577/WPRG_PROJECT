@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz wzorcowy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main_table">
+    <h2>Przeliczasz jednostki: X</h2>
+    <form action="/action_page.php">
+        <label for="ilosc_wejsciowa">Podaj liczbę:</label><br>
+        <input type="liczba" id="ilosc_wejsciowa" name="ilosc_wejsciowa"><br>
+        <label for="jednostki">Wybierz jednostkę wyjściową:</label><br>
+        <input list="jednostki" name="jednostka">
+        <datalist id="jednostki">
+            <option value="bar">
+            <option value="PA">
+            <option value="atm fiz">
+        </datalist><br>
+        <label for="ilosc_wejsciowa">Wybierz jednostkę wyjściową:</label><br>
+        <input list="jednostki2" name="jednostka">
+        <datalist id="jednostki2">
+            <option value="bar">
+            <option value="PA">
+            <option value="atm fiz">
+        </datalist> <br>
+        <input type="submit" value="Przelicz">
+    </form>
+</div>
+
+
+</body>
+</html>
